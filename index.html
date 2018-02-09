@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>All</title>
+	<link id="stylesheet" rel="stylesheet" href="css/main.css">
+	<link id="stylesheet" rel="stylesheet" href="css/nav.css">
+	<link id="stylesheet" rel="stylesheet" href="css/header.css">
+	<link id="stylesheet" rel="stylesheet" href="css/about.css">
+	<link id="stylesheet" rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+	<!-- menu inicio -->
+	<nav>
+		<div class="topnav" id="myTopnav">
+			<a href="#" class="activeNav">HOME</a>
+			<a href="#S1">GALLERY</a>
+			<a href="#S2">ABOUT</a>
+			<a href="#S3">CONTACT</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myNav()">&#9776;</a>
+		</div>
+	</nav>
+	<!-- menu fin -->
+
+	<!-- jumbotron inicio -->
+	<header class="hero-image">
+		<div class="hero-text">
+	    	<h1>Hola</h1>
+	    	<p>mundo</p>
+	  	</div>	
+	</header>
+	<!-- jumbotron fin -->
+
+	<!-- Section inicio -->
+	<section id="S2" class="container">
+		
+	</section>
+
+	<!-- About inicio -->
+	<section id="S2" class="container">
+		<h2>About</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, consectetur alias cupiditate totam quasi inventore illum, ut distinctio maxime cum at sint incidunt earum, aspernatur unde et optio esse? Suscipit!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ut itaque dignissimos dolorum quas illum dicta est saepe sunt, veritatis, officiis voluptate optio ab pariatur veniam debitis ad unde iure.</p>
+		<!-- Solapa 1 inicio -->
+		<button class="accordion">Fecha / Actividad Uno</button>
+		<div class="panel">
+			<p>lugar</p>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam possimus rerum impedit explicabo maxime distinctio nam odit obcaecati esse inventore, at in placeat aperiam consequatur, quos velit iure ullam cumque?</p>
+		</div>
+		<!-- Solapa 1 fin -->
+		<!-- Solapa 2 inicio -->
+		<button class="accordion">Fecha / Actividad Dos</button>
+		<div class="panel">
+			<p>lugar</p>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nam, excepturi in. Enim excepturi qui, deleniti explicabo assumenda voluptatibus nobis reprehenderit doloribus inventore fugiat officia illum debitis aspernatur dolorem praesentium!</p>
+		</div>
+		<!-- Solapa 2 fin -->
+		<!-- Solapa 3 inicio -->
+		<button class="accordion">Fecha / Actividad Tres</button>
+		<div class="panel">
+			<p>lugar</p>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis suscipit, illo explicabo ullam reiciendis, laudantium nesciunt, veniam modi dolor corporis magnam qui neque! Animi quam tenetur dolore, distinctio omnis reiciendis.</p>
+		</div>
+		<!-- Solapa 3 fin -->
+		<!-- Solapa 4 inicio -->
+		<button class="accordion">Fecha / Actividad Cuatro</button>
+		<div class="panel">
+			<p>lugar</p>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat quia, aperiam, atque voluptates reiciendis quod, repudiandae similique exercitationem eos eum molestias ab.</p>
+		</div>
+		<!-- Solapa 4 fin -->
+		<!-- Solapa 5 inicio -->
+		<button class="accordion">Fecha / Actividad Cinco</button>
+		<div class="panel">
+			<p>lugar</p>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat quia, aperiam, atque voluptates reiciendis quod, repudiandae similique exercitationem eos eum molestias ab.</p>
+		</div>
+		<!-- Solapa 5 fin -->
+	</section>
+
+	<section class="container">
+		<h2>Titulo</h2>
+		<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat.</p>
+
+<!-- Create buttons to open specific tab content. All <div> elements with class="tabcontent" are hidden by default (with CSS & JS). When the user clicks on a button - it will open the tab content that "matches" this button. -->
+		<button class="tablink" onclick="openPage('uno', this, 'red')">Uno</button>
+		<button class="tablink" onclick="openPage('dos', this, 'grey')" id="defaultOpen">Dos</button>
+
+		<!-- Tab 1 iniocio /// contenedor de cada tab-->
+		<div id="uno" class="tabcontent">
+			<h3>SubTitulo 1</h3>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat.</p>
+		</div>
+		<!-- Tab 1 fin -->
+
+		<!-- Tab 2 iniocio -->
+		<div id="dos" class="tabcontent">
+			<h3>SubTitulo 2</h3>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat.</p>
+		</div>
+		<!-- Tab 2 fin -->
+	</section>
+
+	<section class="container mgn-botton">
+		<h3>SubTitulo 2</h3>
+			<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sequi in, amet impedit commodi ducimus voluptatum repellat.</p>
+	</section>
+	<!-- About fin -->
+
+	<!-- footer inicio -->
+	<footer>
+		<div class="footer">
+  			<div class="progress-container">
+  			<div class="footer-text2"><span>ffjfjhy<img src="img/hamburguesa.png" alt="algo" width="26px" height="26px"></span></div>
+    			<div class="progress-bar" id="myBar"></div>
+  			</div>
+		</div>
+		<!-- <div class="footer">
+		<p>Footer</p>
+		</div> -->
+		<script src="js/main.js"></script>
+		<script>
+			/* FOOTER INICIO*/
+			// When the user scrolls the page, execute myFunction 
+			window.onscroll = function() {myFooter()};
+
+			function myFooter() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 90;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+			/* FOOTER FIN*/
+		</script>
+	</footer>
+	<!-- footer fin -->
+</body>
+</html>
+

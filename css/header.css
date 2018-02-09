@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Section Style*/
+.hero-image {
+	background-image: url("fondo.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+/* Section-div Style */
+.hero-text {
+  	text-align: center;
+  	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+}
+
+/* Section-div-button Style */
+.hero-text button{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+	background-color: #ddd;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hero-text button:hover{
+	background-color: #555;
+	color: white;
+}
+
+/* Section-div-text Style */
+
+.hero-text h1{
+	font-size:50px;
+}

@@ -1,0 +1,12 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+@import 'header';
+@import 'nav';
+@import 'gallery';
+@import 'about';
+@import 'contact';
