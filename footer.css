@@ -1,0 +1,30 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background: #ccc;
+}
+
+.progress-container {
+  width: 80%;
+  height: 20px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 20px;
+  background: red;
+  width: 0%;
+  padding-top: 15px;
+}
+
+.footer-float {
+  float: right;
+}
+
+.footer-txt {
+  width: 20%;
+  margin: -15px;
+  font-size:0.8vw;
+}

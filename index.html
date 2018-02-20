@@ -111,15 +111,19 @@
 
 	<!-- footer inicio -->
 	<footer>
+
 		<div class="footer">
+			<div class="footer-txt footer-float">
+				<p>Victoria Cetina
+				<img src="img/hamburguesa.png" alt="algo" width="26px" height="26px"></p>
+			</div>
   			<div class="progress-container">
-  			<div class="footer-text2"><span>ffjfjhy<img src="img/hamburguesa.png" alt="algo" width="26px" height="26px"></span></div>
     			<div class="progress-bar" id="myBar"></div>
   			</div>
 		</div>
-		<!-- <div class="footer">
-		<p>Footer</p>
-		</div> -->
+	<!-- footer fin -->
+
+
 		<script src="js/main.js"></script>
 		<script>
 			/* FOOTER INICIO*/
@@ -129,7 +133,7 @@
 			function myFooter() {
 			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-			  var scrolled = (winScroll / height) * 90;
+			  var scrolled = (winScroll / height) * 100;
 			  document.getElementById("myBar").style.width = scrolled + "%";
 			}
 			/* FOOTER FIN*/
